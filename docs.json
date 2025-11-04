@@ -85,7 +85,7 @@
     "primary": {
       "type": "button",
       "label": "Get Started",
-      "href": "/getting-started/installation"
+      "href": "https://docs.nativecli.com/getting-started/installation"
     }
   },
   "contextual": {
