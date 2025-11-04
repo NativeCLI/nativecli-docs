@@ -1,0 +1,29 @@
+---
+title: "update"
+description: "Update NativePHP to the latest version"
+---
+
+This command will perform any available updates to NativePHP on your behalf.
+After checking for updates, you'll be prompted to confirm you want to go ahead.
+
+<Warning>
+If you use the --non-interactive flag, you will not be prompted. The update will be completed immediately.
+</Warning>
+
+## Command
+
+Syntax:
+
+```bash
+nativecli update [OPTIONS]
+```
+
+## Options
+
+### -n, --non-interactive
+Provides a non-interactive experience, suitable for CI. Updates are processed immediately to the
+latest available version.
+
+## See Also
+
+- [check-update command](/commands/check-update) - Check for updates without updating
