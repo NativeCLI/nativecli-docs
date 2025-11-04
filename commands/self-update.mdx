@@ -1,0 +1,46 @@
+---
+title: "self-update"
+description: "Update NativeCLI to the latest version"
+---
+
+This command provides an easy way to ensure that NativeCLI is always kept up to date.
+
+<Note>
+This command is only available in NativeCLI version 1.0.0-release.1 and later.
+</Note>
+
+## Command
+
+Syntax:
+
+```bash
+nativecli self-update [VERSION]
+```
+
+## Options
+
+<Note>All options are only available since 1.0.1</Note>
+
+### -f, --format
+By default, update status is output in `text`. For programmatic use, `json` is also a valid option:
+
+```bash
+nativecli self-update --format json
+```
+
+### --check
+Check for updates without updating.
+
+## Examples
+
+Update to the latest stable version:
+
+```bash
+nativecli self-update
+```
+
+Update to a specific version:
+
+```bash
+nativecli self-update 1.0.0-beta.2
+```

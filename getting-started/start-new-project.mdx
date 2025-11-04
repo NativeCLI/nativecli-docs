@@ -1,0 +1,61 @@
+---
+title: "Start a New NativePHP Project"
+description: "Create your first NativePHP project using NativeCLI"
+---
+
+This tutorial assumes that you have already followed the [Installation](/getting-started/installation) guide.
+
+## Before you start
+
+Make sure that:
+- NativeCLI has been [installed](/getting-started/installation)
+- NativeCLI is in your path and available for use:
+  ```bash
+  nativecli --version
+  # Output: NativePHP CLI Tool x.x.x
+  ```
+  <Note>Version number may vary depending on your installed version</Note>
+
+## Starting a new NativePHP Project
+
+At this time, NativePHP only supports Laravel. For this reason, so does NativeCLI.
+
+NativeCLI utilises Laravel's Installer library. This means that any arguments available within that is also available within NativeCLI.
+
+<Note>
+  This tutorial assumes that you will be creating your project in a `~/Code` directory in your user home.
+</Note>
+
+1. Execute the following command in the terminal:
+
+   ```bash
+   cd ~/Code
+   nativecli new MyFirstProject
+   ```
+   
+   <img src="/images/new_command.png" alt="New Command Example" />
+
+2. You'll be prompted to select some options from the Laravel installer. Choose your favorites!
+
+   <img src="/images/laravel_prompt.png" alt="Laravel Prompt" />
+
+3. That's it! You'll find a new folder with your project name. It includes everything you need to get started.
+
+## Next Steps
+
+<CardGroup cols={2}>
+  <Card
+    title="Configure Your Project"
+    icon="gear"
+    href="/guides/configuration"
+  >
+    Learn about NativeCLI configuration options
+  </Card>
+  <Card
+    title="Explore Commands"
+    icon="terminal"
+    href="/commands/new"
+  >
+    See all available NativeCLI commands
+  </Card>
+</CardGroup>
