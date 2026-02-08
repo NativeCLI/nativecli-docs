@@ -1,0 +1,30 @@
+---
+title: "1.0.3"
+description: "Release notes for NativeCLI 1.0.3"
+---
+
+Released February 12, 2025.
+
+The CLI now checks for updates automatically by default.
+
+To enable automatic updates, run:
+
+```bash
+nativecli config set updates.auto true
+```
+
+To disable update checks, run:
+
+```bash
+nativecli config set updates.check false
+```
+
+## What's Changed
+
+- Get version from global composer lockfile by @PeteBishwhip in #15
+- Implement Config Command + AutoUpdates by @PeteBishwhip in #18
+- Add ios:install command by @PeteBishwhip in #21
+
+## Full Changelog
+
+https://github.com/NativeCLI/NativeCLI/compare/1.0.2...1.0.3
