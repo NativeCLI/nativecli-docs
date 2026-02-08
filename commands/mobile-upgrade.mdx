@@ -1,0 +1,36 @@
+---
+title: "mobile:upgrade"
+description: "Upgrade a NativePHP Mobile project to the latest structure"
+---
+
+The `mobile:upgrade` command publishes the plugin provider, lists plugins, and runs NativePHP install.
+
+## Command
+
+Syntax:
+
+```bash
+nativecli mobile:upgrade [OPTIONS]
+```
+
+## Options
+
+### --skip-install
+Skip running `native:install`.
+
+### --run
+Launch `native:run` after the upgrade.
+
+### --force, -f
+Force `native:install` (if supported).
+
+## Example
+
+```bash
+nativecli mobile:upgrade --run
+```
+
+## See Also
+
+- [plugin:provider command](/commands/plugin-provider) - Publish the plugin service provider
+- [plugin:list command](/commands/plugin-list) - Review installed plugins

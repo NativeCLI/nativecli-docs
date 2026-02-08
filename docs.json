@@ -36,6 +36,7 @@
               "commands/ios-install",
               "commands/jump",
               "commands/mobile-install",
+              "commands/mobile-upgrade",
               "commands/plugin-add",
               "commands/plugin-list",
               "commands/plugin-remove",
