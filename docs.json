@@ -35,6 +35,7 @@
               "commands/inertia-fix",
               "commands/ios-install",
               "commands/mobile-install",
+              "commands/mobile-upgrade",
               "commands/self-update",
               "commands/update"
             ]
