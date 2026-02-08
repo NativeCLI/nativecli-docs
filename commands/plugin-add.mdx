@@ -1,0 +1,36 @@
+---
+title: "plugin:add"
+description: "Install and register a NativePHP plugin"
+---
+
+The `plugin:add` command installs a plugin via Composer, registers it, and lists installed plugins.
+
+## Command
+
+Syntax:
+
+```bash
+nativecli plugin:add <package> [OPTIONS]
+```
+
+## Options
+
+### --dev
+Install the plugin as a dev dependency.
+
+### --force, -f
+Force plugin registration if already registered.
+
+### --rebuild
+Rebuild the native app immediately after registering.
+
+## Example
+
+```bash
+nativecli plugin:add vendor/package --rebuild
+```
+
+## See Also
+
+- [plugin:list command](/commands/plugin-list) - List installed plugins
+- [plugin:permissions command](/commands/plugin-permissions) - Review requested permissions

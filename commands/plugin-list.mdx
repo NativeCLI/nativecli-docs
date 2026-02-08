@@ -1,0 +1,33 @@
+---
+title: "plugin:list"
+description: "List registered NativePHP plugins"
+---
+
+The `plugin:list` command shows installed and registered NativePHP plugins.
+
+## Command
+
+Syntax:
+
+```bash
+nativecli plugin:list [OPTIONS]
+```
+
+## Options
+
+### --json
+Output the list as JSON.
+
+### --all
+Include unregistered plugins.
+
+## Example
+
+```bash
+nativecli plugin:list --json
+```
+
+## See Also
+
+- [plugin:add command](/commands/plugin-add) - Install and register a plugin
+- [plugin:permissions command](/commands/plugin-permissions) - Review requested permissions
