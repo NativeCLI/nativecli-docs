@@ -30,6 +30,7 @@
             "group": "Commands",
             "pages": [
               "commands/new",
+              "commands/build",
               "commands/cache-clear",
               "commands/check-update",
               "commands/inertia-fix",

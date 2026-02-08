@@ -1,0 +1,27 @@
+---
+title: "build"
+description: "Build and run a NativePHP application"
+---
+
+The `build` command wraps `native:run` and lets you choose a build type.
+
+## Command
+
+Syntax:
+
+```bash
+nativecli build [OPTIONS]
+```
+
+## Options
+
+### --build
+Build type to use. Accepted values: `debug` or `release`. Default: `debug`.
+
+## Example
+
+Run a release build:
+
+```bash
+nativecli build --build=release
+```
