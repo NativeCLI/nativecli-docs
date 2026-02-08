@@ -48,7 +48,26 @@
             ]
           },
           {
-            "group": "Changelog",
+            "group": "Guides",
+            "pages": [
+              "guides/starter-kits",
+              "guides/configuration"
+            ]
+          },
+          {
+            "group": "Community",
+            "pages": [
+              "community/contributing",
+              "community/sponsoring"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Changelog",
+        "groups": [
+          {
+            "group": "Releases",
             "pages": [
               "changelog/index",
               "changelog/1-3-0",
@@ -66,20 +85,6 @@
               "changelog/1-0-0-beta-1",
               "changelog/1-0-0-alpha-2",
               "changelog/1-0-0-alpha-1"
-            ]
-          },
-          {
-            "group": "Guides",
-            "pages": [
-              "guides/starter-kits",
-              "guides/configuration"
-            ]
-          },
-          {
-            "group": "Community",
-            "pages": [
-              "community/contributing",
-              "community/sponsoring"
             ]
           }
         ]
