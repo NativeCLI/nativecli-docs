@@ -34,6 +34,7 @@
               "commands/check-update",
               "commands/inertia-fix",
               "commands/ios-install",
+              "commands/jump",
               "commands/mobile-install",
               "commands/self-update",
               "commands/update"
