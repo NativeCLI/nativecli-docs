@@ -35,6 +35,11 @@
               "commands/inertia-fix",
               "commands/ios-install",
               "commands/mobile-install",
+              "commands/plugin-add",
+              "commands/plugin-list",
+              "commands/plugin-remove",
+              "commands/plugin-provider",
+              "commands/plugin-permissions",
               "commands/self-update",
               "commands/update"
             ]
