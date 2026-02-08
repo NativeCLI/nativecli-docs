@@ -1,0 +1,32 @@
+---
+title: "plugin:remove"
+description: "Uninstall a NativePHP plugin"
+---
+
+The `plugin:remove` command uninstalls a NativePHP plugin.
+
+## Command
+
+Syntax:
+
+```bash
+nativecli plugin:remove <package> [OPTIONS]
+```
+
+## Options
+
+### --force, -f
+Force uninstall even if requirements are unmet.
+
+### --keep-files
+Keep plugin files on disk after uninstalling.
+
+## Example
+
+```bash
+nativecli plugin:remove vendor/package --keep-files
+```
+
+## See Also
+
+- [plugin:list command](/commands/plugin-list) - Verify what is registered
